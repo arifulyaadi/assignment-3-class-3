@@ -1,0 +1,138 @@
+*{
+	margin: 0;
+	padding: o;
+}
+
+a{
+	text-decoration: none;
+}
+.banner-part{
+	width: 100%;
+	height: 100vh;
+	background-image: url(../img/imgt.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.header{
+	width: 100%;
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+.container{
+	width: 1140px;
+	margin: auto;
+}
+.nav{
+	display: flex;
+	justify-content: space-between;
+	font-family: 'Poppins', sans-serif;
+}
+.logo a{
+	font-size: 24px;
+	font-weight: 600px;
+	color: #f5f5f5;
+	
+}
+.sp{
+	color: #fca311;
+	font-size: 12px;
+}
+
+.menu-item, .social-icon{
+	display: inline-block;
+	list-style: none;
+}
+.menu-item li, .social-icon li{
+	display: inline-block;
+}
+
+.menu-item li a{
+	color: #f5f5f5;
+	font-size: 1rem;
+	font-weight: 500px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.social-icon li a{
+	color: #f5f5f5;
+	margin-left: 15px;
+	margin-right: 15px;
+
+}
+.menu button{
+	color: #f5f5f5;
+    background-color: #090b0f;
+    font-size: 1rem;
+    font-weight: 500px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 14px;
+    padding-top: 14px;
+    border: 2px solid #fca311;
+    margin-left: 20px;
+}
+.menu button:hover{
+	background: linear-gradient(90deg, #fc5130, #fca311);
+	cursor: pointer;
+}
+
+
+
+
+
+.banner{
+	width: 100%;
+	text-align: center;
+	font-family: 'Bebas Neue', cursive;
+	}
+
+.banner-cnt{
+	height: 85vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner-cnt div h1{
+	margin: 0px 139px;
+	line-height: 1;
+	color: #fca311;
+	letter-spacing: 7px;
+	font-size: 120px;
+	font-weight: 900px;
+	margin-bottom: 20px;
+}
+
+
+.iie{
+	background: linear-gradient(90deg, #fc5130,#fca311);
+	font-size: 1rem;
+	padding: 10px 25px;
+	color: white;
+	font-weight: 500px;
+	margin: 0px 10px;
+	border: 2px solid #fca311;
+}
+.iie:hover{
+	background: linear-gradient(90deg, #fca311,#fc5130);
+	cursor: pointer;
+	border: 2px solid #fca311;
+}
+
+.iii{
+	font-size: 1rem;
+	padding: 10px 25px;
+	color: white;
+	font-weight: 500px;
+	margin: 0px 10px;
+	border: 2px solid #fca311;
+	background: black;
+
+}
+.iii:hover{
+	background: linear-gradient(90deg, #fc5130,#fca311);
+	cursor: pointer;
+	border: 2px solid #fca311;
+}
